@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  build_frontend:
+    build: "./client"
+    volumes:
+      - ./client/build:/usr/src/app/build
+  bots_server:
+    build: .
+    volumes:
+      - ./client/build:/usr/src/app/client/build
+    ports:
+      - 4000:4000
+    depends_on:
+      - build_frontend

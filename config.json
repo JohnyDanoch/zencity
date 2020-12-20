@@ -1,0 +1,4 @@
+{
+  "DB_URI" : "mongodb://zc-interview-botsdb:1d6TFO95xux8HGRvVNBBh8Fc4aFhTd46lPZq2DFEoDjoclQh5fbdHSTTA9jCmZjcU0XEwD2zrbwRgEo9KlRuWQ==@zc-interview-botsdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@zc-interview-botsdb@",
+  "DB_NAME" : "bots"
+}
